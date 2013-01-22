@@ -2,7 +2,6 @@ class WrongNumberOfPlayersError < StandardError ; end
 class NoSuchStrategyError < StandardError ; end
 
 
-  
   def rps_result(m1, m2)
   	if (m1.last == m2.last) then
   		return m1
